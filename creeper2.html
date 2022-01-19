@@ -14,18 +14,18 @@
             border-collapse: collapse;
         }
 
-        td {    
+        td {
+            border: 1px solid black;
             padding: 10px;
-            background-color: black;
         }
 
-        td.verde {
-            background-color: chartreuse;
+        .line {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <h1>Teste de Tabelas 2 - Sem as bordas do &lt;td&gt;</h1>
+    <h1>Teste de Tabelas 2 - utilizando o <span class="line">rowspan</span> e o <span class="line">colspan</span></h1>
     <table>
         <tr>
             <td rowspan="6" class="verde">G</td>

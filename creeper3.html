@@ -6,19 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Testando Tabelas 3</title>
     <style>
-        body{
+        body {
             font-family: Arial, Helvetica, sans-serif;
         }
 
         table {
             border-collapse: collapse;
-            border: 3px solid black;
-            margin: auto;
         }
 
-        td{
+        td {    
+            padding: 10px;
             background-color: black;
-            padding: 30px;
         }
 
         td.verde {
@@ -27,27 +25,27 @@
     </style>
 </head>
 <body>
-    <h1>Teste de Tabelas 3 - Sem as bordas do &lt;td&gt; e sem as letras</h1>
+    <h1>Teste de Tabelas 3 - Sem as bordas do &lt;td&gt;</h1>
     <table>
         <tr>
-            <td rowspan="6" class="verde"></td>
-            <td colspan="8" class="verde"></td>
+            <td rowspan="6" class="verde">G</td>
+            <td colspan="8" class="verde">G</td>
             
         </tr>
         <tr>
-            <td colspan="2" rowspan="2"></td>
-            <td colspan="2" class="verde"></td>
-            <td colspan="2" rowspan="2"></td>
-            <td rowspan="5" class="verde"></td>
+            <td colspan="2" rowspan="2">B</td>
+            <td colspan="2" class="verde">G</td>
+            <td colspan="2" rowspan="2">B</td>
+            <td rowspan="5" class="verde">G</td>
         </tr>
 
         <tr>
-            <td colspan="2" class="verde"></td>
+            <td colspan="2" class="verde">G</td>
         </tr>
         <tr>
-            <td colspan="2" class="verde"></td>
-            <td colspan="2"></td>
-            <td colspan="2" class="verde"></td>
+            <td colspan="2" class="verde">G</td>
+            <td colspan="2">B</td>
+            <td colspan="2" class="verde">G</td>
         </tr>
 
         <tr>
@@ -55,15 +53,15 @@
         </tr>
 
         <tr>
-            <td></td>
-            <td></td>
-            <td class="verde"></td>
-            <td class="verde"></td>
-            <td></td>
-            <td></td>
+            <td>B</td>
+            <td>B</td>
+            <td class="verde">G</td>
+            <td class="verde">G</td>
+            <td>B</td>
+            <td>B</td>
         </tr>
         <tr>
-            <td colspan="8" class="verde"></td>
+            <td colspan="8" class="verde">G</td>
         </tr>
     </table>
 </body>

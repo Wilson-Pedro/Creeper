@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando Tabelas 4</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            border-collapse: collapse;
+            border: 3px solid black;
+            margin: auto;
+        }
+
+        td{
+            background-color: black;
+            padding: 30px;
+        }
+
+        td.verde {
+            background-color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste de Tabelas 4 - Sem as bordas do &lt;td&gt; e sem as letras</h1>
+    <table>
+        <tr>
+            <td rowspan="6" class="verde"></td>
+            <td colspan="8" class="verde"></td>
+            
+        </tr>
+        <tr>
+            <td colspan="2" rowspan="2"></td>
+            <td colspan="2" class="verde"></td>
+            <td colspan="2" rowspan="2"></td>
+            <td rowspan="5" class="verde"></td>
+        </tr>
+
+        <tr>
+            <td colspan="2" class="verde"></td>
+        </tr>
+        <tr>
+            <td colspan="2" class="verde"></td>
+            <td colspan="2"></td>
+            <td colspan="2" class="verde"></td>
+        </tr>
+
+        <tr>
+            <td colspan="6">B</td>
+        </tr>
+
+        <tr>
+            <td></td>
+            <td></td>
+            <td class="verde"></td>
+            <td class="verde"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td colspan="8" class="verde"></td>
+        </tr>
+    </table>
+</body>
+</html>
